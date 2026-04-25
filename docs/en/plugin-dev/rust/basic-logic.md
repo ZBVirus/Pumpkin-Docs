@@ -23,6 +23,7 @@ impl Plugin for HelloPlugin {
             version: env!("CARGO_PKG_VERSION").into(),
             authors: vec!["Bjorn".into()],
             description: "A simple example plugin".into(),
+            dependencies: vec![],
         }
     }
 
